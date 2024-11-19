@@ -9,9 +9,9 @@ import { LuMenu } from "react-icons/lu";
 
 export default function Navbar({ }): any {
     return (
-        <nav className="mt-10 fixed z-50 flex items-center justify-between w-full h-24 px-4 py-10 backdrop-blur-md bg-background bg-opacity-30 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
+        <nav className="fixed z-50 flex items-center justify-between w-full h-24 px-4 py-10 backdrop-blur-md bg-background bg-opacity-30 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
             <Link href="/">
-                <Image alt="logo" className="w-40 cursor-pointer rounded-full" src="/images/logo.svg" height={100} width={170} />
+                <Image alt="logo" className="w-40 cursor-pointer rounded-full mt-10" src="/images/logo.svg" height={100} width={170} />
             </Link>
             <div className="hidden gap-1 md:gap-2 lg:gap-4 md:flex">
                 <Button variant="ghost" className="font-semibold text-md">
