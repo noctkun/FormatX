@@ -63,13 +63,6 @@ export default function Navbar({ }): any {
                                         </Button>
                                     </Link>
                                 </SheetTrigger>
-                                <SheetTrigger asChild>
-                                    <Link href="/privacy-policy">
-                                        <Button variant="link" className="w-full font-semibold text-md">
-                                            Privacy Policy
-                                        </Button>
-                                    </Link>
-                                </SheetTrigger>
                                 <ModeToggle />
                             </div>
                         </SheetDescription>
